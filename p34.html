@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>p34</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+
+  function abrirParametros()
+  {
+    var ventana=open('','','status=yes,width=600,height=300,menubar=yes');
+    ventana.document.write("Esta es una ventana nueva!<br>");
+  }
+</script>
+<form>
+    <input type="button" value="Abrir ventana" onClick="abrirParametros()" >
+    <br>
+</form>  
+</body>
+</html>
